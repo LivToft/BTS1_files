@@ -1,0 +1,11 @@
+Minimization of everything excluding backbone
+ &cntrl
+  imin = 1, maxcyc = 1000,
+  ncyc = 50, ntx = 1, 
+  ntwe = 0, ntwr = 500, ntpr = 50,
+  ntc = 2, ntf = 2, ntb = 1, ntp = 0,
+  cut = 8.0,   
+  ntr=1, restraintmask="@CA,C,N,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,O1,O1A,O2A,O3A,O1B,O2B,PA,PB",
+  restraint_wt=50.
+  ioutfm=1, ntxo=2,
+ /
